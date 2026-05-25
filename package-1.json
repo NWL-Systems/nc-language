@@ -1,0 +1,37 @@
+{
+  "name": "nc-language",
+  "displayName": "NC Language",
+  "description": "NC Language (NuclearCloud Language) - by NWL-Systems",
+  "version": "2.0.0",
+  "publisher": "NWL-Systems",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Playclaubrt/nc-language"
+  },
+  "homepage": "https://github.com/Playclaubrt/nc-language",
+  "bugs": {
+    "url": "https://github.com/Playclaubrt/nc-language/issues"
+  },
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Programming Languages"],
+  "keywords": ["nc", "nclanguage", "nuclearcloud", "nwl-systems"],
+  "contributes": {
+    "languages": [{
+      "id": "nc",
+      "aliases": ["NC Language", "NuclearCloud Language", "nc"],
+      "extensions": [".nc"],
+      "icon": {
+        "light": "./icon.png",
+        "dark": "./icon.png"
+      },
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nc",
+      "scopeName": "source.nc",
+      "path": "./nc.tmLanguage.json"
+    }]
+  }
+}

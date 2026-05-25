@@ -1,0 +1,17 @@
+# Entrada para o GitHub Linguist
+# Submeter via Pull Request em: https://github.com/github/linguist
+# Copyright (c) 2026 NWL-Systems
+
+NC Language:
+  type: programming
+  color: "#9400D3"
+  extensions:
+  - ".nc"
+  aliases:
+  - nc
+  - nuclearcloud
+  - nclang
+  tm_scope: source.nc
+  ace_mode: text
+  language_id: 999001
+  group: NC Language
