@@ -8,11 +8,11 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Playclaubrt/nc-language"
+    "url": "https://github.com/NWL-Systems/nc-language"
   },
-  "homepage": "https://github.com/Playclaubrt/nc-language",
+  "homepage": "https://github.com/NWL-Systems/nc-language",
   "bugs": {
-    "url": "https://github.com/Playclaubrt/nc-language/issues"
+    "url": "https://github.com/NWL-Systems/nc-language/issues"
   },
   "engines": { "vscode": "^1.60.0" },
   "categories": ["Programming Languages"],
