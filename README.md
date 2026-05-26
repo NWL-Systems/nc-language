@@ -121,12 +121,13 @@ Open source — use à vontade em qualquer projeto!
 
 Veja [LICENSE](LICENSE) e [COPYRIGHT](COPYRIGHT).
 
-#Release 25/05/2026 
+Release 25/05/2026 
 
 
-##Compiladores para Linux e Android em Forma Executavel Criadas 
+Compiladores para Linux e Android em Forma Executavel Criadas 
 
 
-##Windows Em Breve...
+Windows Em Breve...
+VS Code em Breve...
 
 
