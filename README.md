@@ -58,6 +58,14 @@ say = "Sistema ativo!"
 say = "Repetindo!"
 ]
 
+
+Release 25/05/2026 
+
+
+Compiladores para Linux e Android em Forma Executavel Criadas 
+
+Windows Em Breve....
+
 !# While #!
 !while! x > 0 [
 !! x
