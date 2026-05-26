@@ -59,13 +59,6 @@ say = "Repetindo!"
 ]
 
 
-Release 25/05/2026 
-
-
-Compiladores para Linux e Android em Forma Executavel Criadas 
-
-Windows Em Breve....
-
 !# While #!
 !while! x > 0 [
 !! x
@@ -127,3 +120,13 @@ Open source — use à vontade em qualquer projeto!
 Único requisito: creditar **"NC Language criada por NWL-Systems"**
 
 Veja [LICENSE](LICENSE) e [COPYRIGHT](COPYRIGHT).
+
+#Release 25/05/2026 
+
+
+##Compiladores para Linux e Android em Forma Executavel Criadas 
+
+
+##Windows Em Breve...
+
+
