@@ -148,4 +148,37 @@ VS Code em Breve...
 
  NCD.connection — única biblioteca oficial
 
+ cp /# PASTA ONDE TA O ARQUIVO/nc_compiler.c ~/nc-language/
+cd ~/nc-language
+clang -o nc nc_compiler.c -lm
+
+cd ~/nc-language
+
+# Cria um programa
+cat > ola.nc << 'EOF'
+say = "Hello World!"
+!fra! nome = "NuclearCloud"
+!! nome
+EOF
+
+# Compila
+./nc ola.nc
+
+# Roda
+./ola
+
+
+NuclearCloud Extensions pode ser feita toda em .nc Veja:
+
+# .ncapp - Aplicativo normal
+./nc meuapp.nc meuapp.ncapp
+
+# .ncdevapp - App de desenvolvedor
+./nc meuapp.nc terminal.ncdevapp
+
+# .ncprivapp - App especial
+./nc meuapp.nc settings.ncprivapp
+
+Pegue este link.             https://github.com/NWL-Systems/nc-os-extensions-files
+
 
