@@ -133,12 +133,19 @@ VS Code em Breve...
 ## Release 28/05/2026
 
  say, !!, !ask!
+
  !if!, !else!, !elif!, !loop!, !while!
+
  !func!, nClass()[]
+
  !use! — pra importar classes, web, NCD etc
+
  !jun!, !ret!, !stop!, !skip!
+
  !# comentário
+
  Matemática básica
+
  NCD.connection — única biblioteca oficial
 
 
