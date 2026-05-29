@@ -10,7 +10,7 @@ NC Language é uma linguagem de programação open source criada pela **NWL-Syst
 
 ```bash
 # Baixa o compilador
-git clone https://github.com/Playclaubrt/nc-language.git
+git clone https://github.com/NWL-Systems/nc-language.git
 cd nc-language
 
 # Compila o compilador
