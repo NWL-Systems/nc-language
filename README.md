@@ -29,9 +29,11 @@ say = "Hello World!"
 ```bash
 nclang hello.nc
 # Saída: Hello World!
+nuclearcloud hello.nc
+# Saída: Hello World
 ```
 
-Facilidade na Construção de Codigo
+Facilidade na Construção de Codigo 
 
 ---
 
