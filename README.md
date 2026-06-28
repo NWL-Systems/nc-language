@@ -12,20 +12,11 @@ NC Language é uma linguagem de programação open source criada pela **NWL-Syst
 
 ### Linux / Mac / Android (Termux)
 ```bash
-git clone https://github.com/Playclaubrt/nc-language.git
+git clone https://github.com/NWL-Systems/nc-language.git
 cd nc-language
 clang -o nclang nc_compiler.c -lm
+ln -s nclang nuclearcloud
 ```
-
-### NuclearCloud OS
-```bash
-git clone https://github.com/Playclaubrt/nc-language.git
-cd nc-language
-clang -o nclang nc_compiler.c -lm
-./nc_setup /sdcard
-```
-
-> **Por que `nclang`?** O comando `nc` é reservado pelo sistema (netcat). O compilador NC usa `nclang`.
 
 ---
 
@@ -40,7 +31,7 @@ nclang hello.nc
 # Saída: Hello World!
 ```
 
-Igual Python — só rodar. Sem passos extras.
+Facilidade na Construção de Codigo
 
 ---
 
@@ -186,38 +177,7 @@ nclang terminal.nc terminal.ncdevapp
 nclang settings.nc settings.ncprivapp
 ```
 
-### Sistema de Arquivos NC
-
-| Extensão | Tipo |
-|----------|------|
-| `.nc` | Código NC Language |
-| `.ncapp` | Aplicativo normal |
-| `.ncdevapp` | App de desenvolvedor |
-| `.ncprivapp` | App especial |
-| `.ncfile` | Arquivos e pastas |
-| `.ncimg` | Imagens |
-| `.ncdocs` | Documentos e PDFs |
-| `.ncgif` | Animações |
-| `.ncvideo` | Vídeos |
-| `.ncli` | Biblioteca NC |
-
-### Estrutura de pastas NuclearCloud OS
-
-```
-/sdcard/NuclearCloud/
-  Config/
-    User/
-      SDcard_Cloud/
-        TMP/
-      Apps/
-      Docs/
-      Images/
-      DevApps/
-      PrivApps/
-      Languages/
-```
-
-Veja mais em: [nc-os-extensions-files](https://github.com/Playclaubrt/nc-os-extensions-files)
+Veja mais em: [nc-os-extensions-files](https://github.com/NWL-Systems/nc-os-extensions-files)
 
 ---
 
