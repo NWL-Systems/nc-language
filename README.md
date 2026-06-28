@@ -77,6 +77,21 @@ say = "Ola do NC!"
 MinhaClasse nClass()[
 say = "Dentro da classe!"
 ]
+ say, !!, !ask!
+
+ !if!, !else!, !elif!, !loop!, !while!
+
+ !func!, nClass()[]
+
+ !use! — pra importar classes, web, NCD etc
+
+ !jun!, !ret!, !stop!, !skip!
+
+ !# comentário
+
+ Matemática básica
+
+ NCD.connection — única biblioteca oficial
 ```
 
 ## Tipos
@@ -121,38 +136,16 @@ Open source — use à vontade em qualquer projeto!
 
 Veja [LICENSE](LICENSE) e [COPYRIGHT](COPYRIGHT).
 
-## Release 25/05/2026 
 
-
-Compiladores para Linux e Android em Forma Executavel Criadas 
-
-
-Windows Em Breve...
-VS Code em Breve...
-
-## Release 28/05/2026
-
- say, !!, !ask!
-
- !if!, !else!, !elif!, !loop!, !while!
-
- !func!, nClass()[]
-
- !use! — pra importar classes, web, NCD etc
-
- !jun!, !ret!, !stop!, !skip!
-
- !# comentário
-
- Matemática básica
-
- NCD.connection — única biblioteca oficial
+## Ajuda
 
  cp /# PASTA ONDE TA O ARQUIVO/nc_compiler.c ~/nc-language/
 cd ~/nc-language
 clang -o nc nc_compiler.c -lm
 
 cd ~/nc-language
+
+## Criação de qualquer Arquivo
 
 # Cria um programa
 cat > ola.nc << 'EOF'
@@ -167,6 +160,7 @@ EOF
 # Roda
 ./ola
 
+# NC integrações a OS NuclearCloud
 
 NuclearCloud Extensions pode ser feita toda em .nc Veja:
 
@@ -179,6 +173,7 @@ NuclearCloud Extensions pode ser feita toda em .nc Veja:
 # .ncprivapp - App especial
 ./nc meuapp.nc settings.ncprivapp
 
-Pegue este link.             https://github.com/NWL-Systems/nc-os-extensions-files
+# Link pra Ajudar na Criação de Apps
+         https://github.com/NWL-Systems/nc-os-extensions-files
 
 
