@@ -26,7 +26,7 @@ ln -sf $PREFIX/bin/nclang $PREFIX/bin/nuclearcloud
 ### Mac
 ```bash
 git clone https://github.com/NWL-Systems/nc-language.git
-cd nc-language/nclang
+cd nc-language
 clang -o nclang nc_compiler.c -lm
 ln -s nclang nuclearcloud
 sudo cp nclang /usr/local/bin/nclang
