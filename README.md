@@ -14,12 +14,14 @@ NC Language é uma linguagem de programação open source criada pela **NWL-Syst
 ```bash
 git clone https://github.com/NWL-Systems/nc-language.git
 cd nc-language/
-# Copia pra pasta global
-sudo cp ~/nc-language/nclang /usr/local/bin/nclang
-sudo ln -sf /usr/local/bin/nclang /usr/local/bin/nuclearcloud
 
 clang -o nclang nc_compiler.c -lm
 ln -s nclang nuclearcloud
+
+
+# Copia pra pasta global
+sudo cp ~/nc-language/nclang /usr/local/bin/nclang
+sudo ln -sf /usr/local/bin/nclang /usr/local/bin/nuclearcloud
 
 # No Termux (sem sudo)
 cp ~/nc-language/nclang $PREFIX/bin/nclang
