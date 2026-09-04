@@ -1,0 +1,36 @@
+name: Build macOS (NC Language)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - "compiler/**"
+      - "extensions/fs/**"
+      - ".github/workflows/macos-build.yml"
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Builda nclang, nc-cmd e nc_setup nativamente no macOS
+        run: |
+          mkdir -p bin
+          clang -O2 -o bin/nclang compiler/nc_compiler.c -lm
+          clang -O2 -o bin/nc-cmd compiler/nc-cmd.c
+          clang -O2 -o bin/nc_setup extensions/fs/nc_setup.c extensions/fs/nc_fs.c
+          ln -sf nclang bin/nuclearcloud
+          file bin/nclang bin/nc-cmd bin/nc_setup
+
+      - name: Testa rapido (hello world + if/elif/else)
+        run: |
+          bin/nclang language-tools/hello.nc /tmp/hello_macos
+          bin/nclang -e '!num! n=2;;!if! n==1;;say="um";;];;!elif! n==2;;say="dois";;];;!else!;;say="outro";;]'
+
+      - name: Sobe os binarios como artefato do workflow
+        uses: actions/upload-artifact@v4
+        with:
+          name: nc-language-macos
+          path: bin/

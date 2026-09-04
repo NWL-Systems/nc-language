@@ -1,0 +1,8 @@
+bin/
+*.o
+*.exe
+_nc_*.c
+android/libs/
+android/.buildozer/
+android/bin/
+android/__pycache__/

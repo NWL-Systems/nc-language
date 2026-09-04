@@ -1,0 +1,6 @@
+!# Minha primeira biblioteca NC #!
+!# © 2026 NWL-Systems #!
+
+saudacao nClass()[
+say = "Ola da NCLib!"
+]
