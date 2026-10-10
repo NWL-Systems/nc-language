@@ -1,25 +1,14 @@
-# NuclearCloud NC Language
+# NC Language
 
 ![NC Language](language-tools/icon.png)
 
 > © 2026 NWL-Systems — Criado por NWL-Systems
-
-Repositório unificado dos dois projetos que compõem a linguagem e o
-ecossistema de apps do **NuclearCloud OS**:
-
-- **[`nc-language`](https://github.com/NWL-Systems/nc-language)** — o compilador da NC Language (`nclang`) e o suporte de sintaxe pra editores.
-- **[`nc-os-extensions-files`](https://github.com/NWL-Systems/nc-os-extensions-files)** — as extensões de arquivo do NuclearCloud OS (`.ncapp`, `.ncdocs`, etc.) e o módulo de sistema de arquivos (NCFS).
-
-Esta versão junta os dois em um só lugar, corrige os bugs encontrados em
-ambos (detalhes no [CHANGELOG.md](CHANGELOG.md)) e adiciona um build único
-pra tudo.
-
 ---
 
 ## Estrutura do repositório
 
 ```
-nuclearcloud-nc-language/
+nc-language/
 ├── build_all.sh              # compila tudo (nclang, nc-cmd, nc_setup) de uma vez
 ├── update.sh                  # atualiza o repo local (git pull) e recompila
 ├── android/                   # app Android "NC Terminal" (Kivy + binarios nativos)
@@ -55,8 +44,8 @@ nuclearcloud-nc-language/
 
 ### Linux / Android (Termux)
 ```bash
-git clone https://github.com/NWL-Systems/nuclearcloud-nc-language.git
-cd nuclearcloud-nc-language
+git clone https://github.com/NWL-Systems/nc-language.git
+cd nc-language
 ./build_all.sh
 ```
 
